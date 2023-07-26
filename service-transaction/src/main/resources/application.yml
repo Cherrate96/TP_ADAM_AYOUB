@@ -11,6 +11,3 @@ eureka:
 spring:
   application:
     name: service-transaction
-    
-spring.cloud.discovery:
-  enabled: true
