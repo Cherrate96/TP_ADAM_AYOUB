@@ -41,4 +41,7 @@ Nous avons conçu l'architecture de microservices avec la redondance et la tolé
 ***Solution pratique :*** 
 L'utilisation des Kubernetes pour gérer les microservices avec une haute disponibilité.
 
+**Server Eureka**
+
+![image](https://github.com/Cherrate96/TP_ADAM_AYOUB/assets/48411889/14bbc750-5fec-4145-98a7-e92f5b518444)
 
