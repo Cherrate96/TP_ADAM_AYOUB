@@ -31,7 +31,7 @@ Utilisez Spring Cloud Task pour définir et exécuter des tâches asynchrones. L
 Répartissez la charge entre les microservices en utilisant un service de passerelle (API Gateway) qui utilise des algorithmes d'équilibrage de charge.
 
 ***Solution pratique :*** 
-Utilisez Spring Cloud Gateway comme API Gateway pour répartir la charge entre les microservices. Vous pouvez également configurer des règles d'équilibrage de charge pour optimiser la distribution de la charge.
+Utilisez Spring Cloud Gateway comme API Gateway pour répartir la charge entre les microservices. Nous avons également configurer les règles d'équilibrage de charge pour optimiser la distribution de la charge.
 
 **Disponibilité de 99,999% :**
 
