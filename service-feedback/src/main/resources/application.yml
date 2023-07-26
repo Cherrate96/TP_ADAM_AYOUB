@@ -11,6 +11,3 @@ eureka:
 spring:
   application:
     name: service-feedback
-    
-spring.cloud.discovery:
-  enabled: true
