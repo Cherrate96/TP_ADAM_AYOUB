@@ -12,16 +12,28 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-        - id: USER-SERVICE
-          uri: lb://USER-SERVICE
+        - id: SERVICE-CUSTOMER
+          uri: http://localhost:8081
           predicates:
-            - Path=/users/**
+            - Path=/customer/**
+        - id: SERVICE-USER
+          uri: http://localhost:8083
+          predicates:
+            - Path=/user/**
+        - id: SERVICE-TRANSACTION
+          uri: http://localhost:8082
+          predicates:
+            - Path=/transactions/**
+        - id: SERVICE-ACCOUNT
+          uri: http://localhost:8080
+          predicates:
+            - Path=/accounts/**
+        - id: SERVICE-FEEDBACK
+          uri: http://localhost:8084
+          predicates:
+            - Path=/feedback/**
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
-  instance:
-    hostname: localhost
-    metadataMap:
-      zone: region1:zone1
