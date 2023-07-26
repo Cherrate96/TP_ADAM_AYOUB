@@ -1,0 +1,16 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /feedback-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: service-feedback
+    
+spring.cloud.discovery:
+  enabled: true

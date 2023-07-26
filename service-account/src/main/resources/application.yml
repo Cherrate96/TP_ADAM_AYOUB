@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /account-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: service-account
+
+spring.cloud.discovery:
+  enabled: true
