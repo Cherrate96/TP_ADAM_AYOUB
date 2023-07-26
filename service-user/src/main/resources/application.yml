@@ -11,6 +11,3 @@ eureka:
 spring:
   application:
     name: service-user
-
-spring.cloud.discovery:
-  enabled: true
